@@ -10,7 +10,7 @@ public class Fight {
     private static void fight(Red red, Blue blue) {
         while (true) {
             if (!red.isAlive && blue.isAlive) {
-                System.out.println("Blue win!");
+                System.out.println("Blue winrr!");
                 break;
             } else if (red.isAlive && !blue.isAlive) {
                 System.out.println("Red win!");
